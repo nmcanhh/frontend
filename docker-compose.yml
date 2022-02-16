@@ -1,6 +1,12 @@
 version: "3.3"
 services:
-  reactapp:
-    image: nmcanhh/react-demo:latest
+  frontend:
+    container_name: frontend-react-app
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
     ports:
       - "80:80"
+    volumes:
+      - ./:/app
+      - /app/node_modules

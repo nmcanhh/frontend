@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  reactapp:
+    image: nmcanhh/react-demo:latest
+    ports:
+      - "80:80"
