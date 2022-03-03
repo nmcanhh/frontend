@@ -1,14 +1,12 @@
 /* ==== "Inter" FONT-FAMILY FROM FONTS.GOOGLE.COM  ==== */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-
 /* ==== ROOT RESET ==== */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 *,
@@ -160,7 +158,7 @@ button {
 }
 
 .main-heading {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 40px;
     line-height: 55px;
 }
@@ -225,7 +223,7 @@ button {
 .documentation_btn {
     width: 150px;
     height: 55px;
-    font-size: 16px;
+    font-size: 13.5px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0;
